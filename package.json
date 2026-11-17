@@ -1,0 +1,19 @@
+{
+  "name": "sasuke-v31-2",
+  "version": "31.2.0",
+  "description": "SASUKE V31.2 — SHADOW GOD: bot multi-sessao de WhatsApp para grupos de venda de megas",
+  "main": "index.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node tests/run.js",
+    "auditoria": "node tools/auditoria.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.9",
+    "pino": "^9.0.0",
+    "qrcode": "^1.5.3",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
